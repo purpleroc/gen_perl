@@ -31,3 +31,6 @@ curl http://127.0.0.1:8080/hack.pl | perl
 
 #### file info
 ![file_info](https://github.com/purpleroc/gen_perl/raw/master/pic/file.png)
+
+## Reference
+[In-Memory-Only ELF Execution](https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html)
