@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ 3 -ne $# ]; then
-	echo "Usage: ./gen_perl [elf] [xx.pl] [proc_name]"
-	echo "eg: ./gen_perl reverse_tcp hack.pl hackers"
+	echo "Usage: ./gen_perl.sh [elf] [xx.pl] [proc_name]"
+	echo "eg: ./gen_perl.sh reverse_tcp hack.pl hackers"
 	exit 0
 fi
 
